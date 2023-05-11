@@ -14,6 +14,8 @@ public class Gyakorlo {
         System.out.println("Az autó halad! " + auto.toString());
         auto.tankol();
         System.out.println("Az autó tankol! " + auto.toString());
+        auto.kerekCsere();
+        auto.kerekCsere();
     }
 
 }

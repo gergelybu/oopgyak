@@ -10,7 +10,7 @@ public class Auto {
     
     private boolean benzin;
     private boolean motor;
-    private int pótkerék = 1;
+    private int potkerek = 1;
 
     public void halad() {
         this.benzin = false;
@@ -18,6 +18,16 @@ public class Auto {
     
     public void tankol() {
         this.benzin = true;
+    }
+    
+    public int kerekCsere(){
+        if(potkerek>0){
+            potkerek -=1;
+            System.out.println("Elhasználta a pótkereket!");
+        }else{
+            System.out.println("Nincs több pótkerék!");
+        }
+        return potkerek;
     }
 
     @Override
