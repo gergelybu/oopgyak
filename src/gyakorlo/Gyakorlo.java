@@ -10,12 +10,11 @@ public class Gyakorlo {
         //Aranyhal aranyhal = new Aranyhal("Béla", 10);
         //System.out.println(aranyhal.toString());
         Auto auto = new Auto();
+        System.out.println("Tankolt-e? " + auto.toString());
         auto.halad();
-        System.out.println("Az autó halad! " + auto.toString());
+        System.out.println("Az autó haladt! " + auto.toString());
         auto.tankol();
-        System.out.println("Az autó tankol! " + auto.toString());
-        auto.kerekCsere();
-        auto.kerekCsere();
+        System.out.println("Az autó tankolt! " + auto.toString());
     }
 
 }
